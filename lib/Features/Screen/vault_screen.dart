@@ -41,7 +41,7 @@ class _VaultScreenState extends State<VaultScreen> {
   ];
 
   Condition? _filter;
-  double _goalValue = 10000000;
+  final double _goalValue = 10000000;
 
   List<VaultItem> get _visibleItems => _filter == null
       ? _items
